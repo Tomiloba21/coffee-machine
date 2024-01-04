@@ -1,4 +1,5 @@
-import art as ink
+
+ art as ink
 """|This is a coffe machine that produces coffee
  , using dictionary as a unconventional database
  
@@ -31,6 +32,7 @@ def espresso():
         print("sorry, Not enough resources to produce espresso\nProvide enough resources to produce espresso")
         print(REPORT)
     else:
+#-1 signifies that what the function returns is null (no value , or unnecessary data)
 
         return -1
 
